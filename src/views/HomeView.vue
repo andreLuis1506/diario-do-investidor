@@ -1,18 +1,8 @@
 <template>
-  <hello-world />
+  <section class="home">
+    <h1>Home</h1>
+    <p>Aqui é apenas um teste</p>
+  </section>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-
-// Components
-import HelloWorld from "../components/HelloWorld.vue";
-
-export default defineComponent({
-  name: "HomeView",
-
-  components: {
-    HelloWorld,
-  },
-});
-</script>
+<script lang="ts"></script>
