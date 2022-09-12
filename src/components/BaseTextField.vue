@@ -1,7 +1,7 @@
 <template>
   <v-text-field
-    v-bind="{ ...$attr }"
-    density="comfortable"
+    density="compact"
     variant="underlined"
+    v-bind="{ ...$attr }"
   ></v-text-field>
 </template>
